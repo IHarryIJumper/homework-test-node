@@ -160,10 +160,10 @@
 @media only screen and (max-width: 475px) {
     /* For mobile phones: */
     .card {
-        width: 100%;
+        width: 270px;
         margin: 5px 0px;
     }
     .content {
-        width: 100%;
+        max-width: 280px;
     }
 }
