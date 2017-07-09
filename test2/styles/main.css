@@ -13,3 +13,12 @@ body {
     font-size: 14px;
     cursor: default;
 }
+
+header,
+nav,
+section,
+article,
+aside,
+footer {
+    display: block;
+}
