@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('../images/background-noise.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'PrototypsterMediumWebfont', 'PrototypsterMedium';
+    font-size: 14px;
+    cursor: default;
+}

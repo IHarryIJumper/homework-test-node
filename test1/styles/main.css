@@ -1,0 +1,66 @@
+body {
+    background-image: url('../images/background-noise.png');
+    /*position: relative;*/
+    background-repeat: repeat;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+header>h1 {
+    position: relative;
+    /*top: calc(50% - 2em / 2);*/
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    background-image: url('../images/footer-noise.png');
+}
+
+footer>.footer-content {
+    position: relative;
+    width: 100%;
+}
+
+footer,
+.footer-content {
+    height: 100px;
+}
+
+.footer-content>h4 {
+    position: relative;
+    /*top: calc(50% - 1.33em / 2);*/
+    margin: 0;
+}
+
+@media only screen and (max-width: 1023px) {
+    /* For tablets phones: */
+    footer,
+    .footer-content {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    footer,
+    .footer-content {
+        height: 40px;
+    }
+}

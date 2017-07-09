@@ -1,0 +1,134 @@
+#page-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 100px 0;
+}
+
+.content {
+    position: relative;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+.card {
+    background-color: white;
+    font-size: 14px;
+    width: 482px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: relative;
+    padding: 0px 20px 20px;
+    margin: 5px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 200px;
+    vertical-align: top;
+}
+
+.card>.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 3em;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.list-element {
+    display: inline-block;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    background-image: url('../images/footer-noise.png');
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.result-row {
+    line-height: 35px;
+    position: relative;
+    font-size: 0;
+    width: 100%;
+}
+
+.warning {
+    font-size: 1.2em;
+    color: darkred;
+    display: block;
+    cursor: default;
+}
+
+.result-data {
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.result-data.info {
+    width: 80%;
+}
+
+.result-data.result {
+    width: 20%;
+}
+
+#materials-result>.result-data.result>span {
+    line-height: 20px;
+    /* position: relative; */
+    display: block;
+    margin-top: 9px;
+}
+
+@media only screen and (max-width: 1023px) {
+    /* For tablets phones: */
+    .card {
+        width: 49%;
+        margin: 5px 0.5%;
+        min-width: 0px;
+    }
+    .content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .card {
+        width: 100%;
+        margin: 5px 0px;
+        min-width: 0px;
+    }
+    .content {
+        width: 100%;
+    }
+}

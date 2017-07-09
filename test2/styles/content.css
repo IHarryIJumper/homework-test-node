@@ -1,0 +1,169 @@
+#page-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 100%;
+    padding: 200px 0 250px 0;
+}
+
+.content {
+    position: relative;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+.card {
+    background-color: white;
+    font-size: 14px;
+    width: 220px;
+    height: 429px;
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.14);
+    display: inline-block;
+    position: relative;
+    padding: 4px;
+    margin: 5px 14px 42px;
+    border-radius: 7px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 200px;
+    vertical-align: top;
+    cursor: pointer;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+.card:hover {
+    background-color: #ff5e42;
+}
+
+.card .in-store {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 12px;
+}
+
+.card .card-hover {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.card .card-content,
+.card .card-hover {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card-content .card-image {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: #f5f5f5;
+}
+
+.card-image img {
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.card-content .card-description {
+    padding: 0px 5px;
+}
+
+.card-description .card-name {
+    /*font-size: 19px;*/
+    font-size: 23px;
+    padding: 15px 3px 5px;
+}
+
+.card-description .card-name p {
+    margin: 0px;
+}
+
+.card-description .card-status {
+    margin-bottom: 15px;
+}
+
+.card-description .card-status,
+.card-description .card-info {
+    font-size: 12px;
+}
+
+.card-description .card-info .info-row {
+    margin-bottom: 3px;
+}
+
+.card-content .card-completion {
+    position: absolute;
+    bottom: 20px;
+    font-size: 23px;
+    padding: 0px 8px;
+}
+
+.card-completion span.in-progress {
+    color: #b8b8b8;
+}
+
+.card-completion span.add-to-store {
+    color: #ff5e42;
+    border-bottom: 1px solid #ff5e42;
+}
+
+.content .scroll-to-top {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.content .scroll-to-top span {
+    font-size: 31px;
+    color: #ff5e42;
+    border-bottom: 1px solid #ff5e42;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+
+.content .scroll-to-top span:hover {
+    color: #ad341f;
+    border-bottom: 1px solid #ad341f;
+}
+
+@media only screen and (max-width: 767px) {
+    /* For tablets phones: */
+    .card {
+        margin: 5px 4px 20px;
+    }
+    .content {
+        max-width: 476px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    /* For mobile phones: */
+    .card {
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .content {
+        width: 100%;
+    }
+}

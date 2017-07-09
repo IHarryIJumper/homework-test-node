@@ -1,0 +1,67 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    z-index: 1;
+}
+
+.logo-container {
+    position: relative;
+    margin: 0 auto;
+    width: 290px;
+    height: 122px;
+}
+
+.logo-container .logo {
+    position: relative;
+}
+
+.logo-container .logo img,
+.logo-container .logo p {
+    position: absolute
+}
+
+.logo-container .logo,
+.logo-container .logo img {
+    width: 290px;
+    height: 97px;
+    top: 0px;
+    left: 0px;
+}
+
+.logo-container .logo p {
+    font-size: 45px;
+    left: 50px;
+    margin: 0;
+    top: 30px;
+}
+
+.logo-container .sorting {
+    margin: 8px 0px;
+}
+
+.logo-container .sorting .sorting-title,
+.logo-container .sorting .sorting-content {
+    display: inline-block;
+}
+
+.sorting-content .sort-by-date,
+.sorting-content .sort-by-ready {
+    color: #ff5e42;
+    cursor: pointer;
+    border-bottom: 1px dashed #ff5e42;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+.sorting-content .sort-by-date:hover,
+.sorting-content .sort-by-ready:hover {
+    color: #ad341f;
+    cursor: pointer;
+    border-bottom: 1px dashed #ad341f;
+}

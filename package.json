@@ -1,0 +1,32 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "AnonyTech simple static server",
+  "main": "serverDist/server.js",
+  "scripts": {
+    "start": "node serverDist/server.js",
+    "server": "npm run build:server && npm start:dev",
+    "dev:server": "NODE_ENV=development nodemon server/server.js --exec babel-node --presets es2015,stage-2",
+    "build:server": "babel server -d serverDist --presets es2015,stage-2"
+  },
+  "author": "Andrey Menshikh",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chalk": "^1.1.3",
+    "express": "^4.15.3",
+    "hex-rgba": "^1.0.0",
+    "strict-uri-encode": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "engines": {
+    "node": "8.0.0"
+  }
+}

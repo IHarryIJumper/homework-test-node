@@ -1,0 +1,27 @@
+.wave {
+    position: relative;
+}
+
+.wave::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 8px;
+    background-size: 10px 20px;
+    background-image: radial-gradient(circle at 5px -5px, transparent 12px, #343434 13px);
+}
+
+.wave::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 12px;
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle at 5px 22px, #343434 12px, transparent 13px);
+}

@@ -1,0 +1,118 @@
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    background-image: url('../images/footer-noise.png');
+    margin-top: -230px;
+}
+
+footer>.footer-content {
+    position: relative;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+footer,
+.footer-content {
+    height: 230px;
+}
+
+.footer-content>h4 {
+    position: relative;
+    /*top: calc(50% - 1.33em / 2);*/
+    margin: 0;
+}
+
+.subscription-box {
+    float: left;
+    position: relative;
+    font-size: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px 10px;
+    margin-left: 20px;
+}
+
+.subscription-box .email-title,
+.subscription-box .email-content {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.subscription-box .email-title {
+    margin-right: 30px;
+    line-height: 38px;
+}
+
+.subscription-box .email-content>div {
+    margin-bottom: 20px;
+}
+
+.subscription-box .email-content>div:last-child {
+    margin-bottom: 0;
+}
+
+.email-input-container {
+    height: 38px;
+    width: 209px;
+}
+
+.email-input-container>input {
+    height: 38px;
+    width: 209px;
+    line-height: 38px;
+    font-size: 14px;
+    font-family: 'PrototypsterMediumWebfont';
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: none;
+}
+
+.email-input-container>input:focus {
+    outline: none;
+}
+
+.registration-button-container>span {
+    font-size: 24px;
+    color: #ff5e42;
+    border-bottom: 1px solid #ff5e42;
+    cursor: pointer;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+.registration-button-container>span:hover {
+    font-size: 24px;
+    color: #ad341f;
+    border-bottom: 1px solid #ad341f;
+}
+
+@media only screen and (max-width: 1023px) {
+    /* For tablets phones: */
+    /*footer,
+    .footer-content {
+        height: 60px;
+    }*/
+}
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    /*footer,
+    .footer-content {
+        height: 40px;
+    }*/
+}

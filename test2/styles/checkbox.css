@@ -1,0 +1,45 @@
+input[type=checkbox].checkbox {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+input[type=checkbox].checkbox+label.checkbox-label {
+    padding-left: 33px;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+input[type=checkbox].checkbox:checked+label.checkbox-label {
+    /*background-position: 0 -28px;*/
+    background-image: url('../images/checked.png');
+}
+
+label.checkbox-label {
+    /*background-image: url(http://csscheckbox.com/checkboxes/u/csscheckbox_b1f4fcc45cfd42ebdae7a0e2f452c979.png);*/
+    background-image: url('../images/unchecked.png');
+    background-size: 28px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}

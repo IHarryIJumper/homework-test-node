@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'PrototypsterMediumWebfont';
+    /*src: url('prototypster-medium-webfont.eot');*/
+    /* IE9 Compat Modes */
+    src: url('prototypster-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('prototypster-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('prototypster-medium-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('prototypster-medium-webfont.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+
+    src: url('prototypster-medium-webfont.eot');
+    src: url('prototypster-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('prototypster-medium-webfont.woff') format('woff'),
+         url('prototypster-medium-webfont.ttf') format('truetype'),
+         url('prototypster-medium-webfont.svg#SansumiRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'PrototypsterMedium';
+    src: url('Prototypster-Medium.otf');
+    src: url('PrototypsterMedium.eot');
+    /* IE9 Compat Modes */
+    src: url('PrototypsterMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('PrototypsterMedium.woff') format('woff'), /* Pretty Modern Browsers */
+    url('PrototypsterMedium.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('PrototypsterMedium.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
